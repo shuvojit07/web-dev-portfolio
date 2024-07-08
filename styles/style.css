@@ -5,15 +5,22 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
-.dark-2{
-    color: #474747;
-}
+
+
     /* shared  style */
 
     .text-primary{
         color: rgb(253, 110, 10);
         
     }
+    .dark-2{
+        color: #474747;
+    }
+    .secondary-bg{
+        background-color: #FFF8f3;
+    }
+
+        
     /* header */
     .header{
         background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -28,7 +35,7 @@ nav{
     margin: 40px 200px;
 
 }
-   /* shard style */
+   /*  style */
 
 .btn-primary{
     background-color:rgb(253, 110, 10) ;
@@ -77,4 +84,34 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* about section */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size:18px ;
+    color: #757575;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.item-description{
+    font-weight: bold;
+}
+.about-items{
+    display:flex;
+    justify-content: space-around;
 }
